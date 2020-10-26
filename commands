@@ -1,0 +1,1 @@
+sudo docker run --name website -v $(pwd):/usr/share/nginx/html:ro -d -p 8080:80 nginx - mount host web files to nginx file & override default d=niginx display content
