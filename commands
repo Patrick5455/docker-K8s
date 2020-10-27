@@ -1,5 +1,0 @@
-
-sudo docker run --name website -v $(pwd):/usr/share/nginx/html:ro -d -p 8080:80 nginx - mount host web files to nginx file & override default d=niginx display content
-
-sudo docker exec -it website bash - This is used to cd into the bash directory of a specified container. In out case, website is the name of the container and can be name of anny oter containery
-
