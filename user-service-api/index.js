@@ -10,7 +10,11 @@ app.get('/', (req, res) => {
   {
     name:'Pat',
     email:'pat@gmail.com'
-  }    
+  },
+  {
+    name:'alice',
+    email:'alice@gmail.com'
+  } 
   ])
 }) 
 
